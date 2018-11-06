@@ -27,6 +27,9 @@ html, body {
 .displayArea {
     height: 500px;
 }
+.lambdaBox {
+    word-wrap: break-word;
+}
 #lambdainput {
     font-size: 2.5rem;
     padding: 1rem;
