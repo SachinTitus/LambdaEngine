@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lambda Engine</title>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="container-fluid h-100">
+        <div class="row card-header justify-content-center">
+            <h1 class="display-1" align="center">λ-Calculus</h1>
+        </div>
+        <div class="row">
+            <div class="input-group col-6 offset-3 mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="hint">Lambda Text:</span>
+                </div>
+                <label for="lambdainput"></label>
+                <input type="text" class="form-control"
+                       autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                       id="lambdainput" aria-describedby="hint">
+            </div>
+        </div>
+
+        <div class="row displayArea justify-content-center flex-fill align-items-center">
+            <div class="col-6 lambdaBox">
+                <h1 class="display-2 lambdaText" id="lambdaresult">Hi There!</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
